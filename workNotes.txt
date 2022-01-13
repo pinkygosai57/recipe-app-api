@@ -1,0 +1,8 @@
+
+The commands used
+
+## Bulid image using the requirements.txt
+docker-compose build
+
+## Starts the django admin project. Creates the manage.py file
+docker-compose run app sh -c "django-admin startproject app ."
